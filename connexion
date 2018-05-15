@@ -1,0 +1,18 @@
+<?php
+
+
+
+try
+{
+    $bdd= new PDO('mysql:host=localhost; dbname=agriculture', 'root' , '');
+
+}catch (Exception $e){
+    die($e->getMessage());
+
+
+
+}
+
+
+
+?>
